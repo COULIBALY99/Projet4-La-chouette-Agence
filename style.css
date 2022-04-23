@@ -7,13 +7,16 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 .keywords{
-    font-weight:700;
+    visibility: hidden;
+}
+.essai{
+    visibility: hidden;
 }
 div#bloc-0.bloc.bgc-white.l-bloc{
     background-color: #f2f2f2;
 }
-a{
-    font-weight: 600;
+a[href="index.html/page2.html"]{
+    color: #ffffff;
 }
 
 a,
@@ -54,7 +57,7 @@ a:hover {
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 30px 15px;
 }
 
 .bloc-md {
@@ -109,7 +112,7 @@ a:hover {
 }
 
 .d-bloc {
-        font-weight: 900;
+        font-weight: 600;
         color:rgb(255,255,255.9);
     }
 
@@ -203,15 +206,9 @@ a:hover {
     border-color: rgba(0, 0, 0, .3);
 }
 
-.d-bloc .panel,
-.l-bloc {
-    color: rgba(0, 0, 0, .5);
-}
 
-.d-bloc .panel button:hover,
-.l-bloc button:hover {
-    color: rgba(0, 0, 0, .7);
-}
+
+
 
 .l-bloc .icon-round,
 .l-bloc .icon-square,
@@ -296,12 +293,6 @@ a:hover {
 #bloc-1-hero h1 {
     font-size: 32px;
 }
-div#bloc-1-hero {
-    background-color: darkslateblue;
-}
-div#bloc-5-cta {
-    background-color: darkslateblue;
-}
 
 .navbar {
     margin-bottom: 0;
@@ -323,7 +314,7 @@ div#bloc-5-cta {
     display: inline;
 }
 
-.navbar-brand img[src$=svg] {
+.navbar-brand img[scr="img/la-chouette-agence.webp"] {
     min-width: 100px;
 }
 
@@ -380,11 +371,18 @@ div#bloc-5-cta {
 .col-sm-12 img {
     width: 100px;
 }
-.portfolio img {
-    width: 200px;
+div#bloc-1-hero {
+    background-color: darkslateblue;
+}
+div#bloc-5-cta {
+    background-color: darkslateblue;
 }
 .row {
     text-align: center;
+}
+li a{
+    color: #ffffff;
+    font-weight: 600;
 }
 
 @media (min-width: 768px) {
@@ -564,7 +562,7 @@ a[data-lightbox] {
 a[data-lightbox]:hover::before {
     content: "+";
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
-    font-size: 32px;
+    font-size: 20px;
     width: 50px;
     height: 50px;
     margin-left: -25px;
@@ -613,7 +611,7 @@ a[data-lightbox]:hover img {
 
 .close-lightbox {
     color: #FFF;
-    font-size: 30px;
+    font-size: 15px;
     position: absolute;
     top: 20px;
     right: 20px;
@@ -675,8 +673,8 @@ label,
 .btn,
 a {
     font-family: "helvetica";
-    font-weight: 400;
-    color: #575757!important;
+    /*font-weight: 400;
+    color: #575757!important;*/
 }
 
 .container {
@@ -714,12 +712,12 @@ p {
 .h1 {
     font-size: 20px;
     font-family: "Open Sans";
+    font-weight: 600;
 }
 
 .cta-hero {
     margin-top: 22px;
     color: #FFFFFF!important;
-    text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
     font-weight: 700;
@@ -736,10 +734,16 @@ h2 {
 }
 
 h3 {
-    font-size: 15px;
-    text-transform: uppercase;
+    font-size: 13px;
     font-weight: 700;
-    color: #333333!important;
+    color:#000000;
+}
+p.text-center.white {
+    font-size: 11px;
+}
+h5.mg-md.text-center.tc-white {
+    font-size: 24px;
+    font-weight: 400;
 }
 
 .med-width-whitespace {
@@ -774,7 +778,7 @@ h4 {
     margin-top: 50px;
 }
 .portfolio img{
-    width: 300px;
+    width: 170px;
 }
 
 .avatar {
@@ -783,7 +787,10 @@ h4 {
 
 .black-background {
     background-color: rgba(165, 147, 99, 0.7);
-    padding: 40px 40px 40px 40px;
+    padding: 10px 10px 10px 10px;
+}
+.tight-width-whitespace.black-background {
+    width: 300px;
 }
 
 .bold-link {
@@ -804,7 +811,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color:#ffffff!important;
 }
 
 .btn-atomic-tangerine {
@@ -866,6 +873,15 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+    .col-sm-6 {
+        width: 35%;
+    }
+    h4.mg-md.text-center {
+        font-size: 15px;
+    }
+    p.text-center{
+        font-size: 13px;
+    }
 }
 
 @media (max-width: 992px) and (min-width: 768px) {
@@ -915,6 +931,11 @@ h4 {
         padding: 0 20px;
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
+    }
+    .row.tight-width-whitespace.portfolio-row {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
     }
 }
 
@@ -1067,5 +1088,8 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+    .col-sm-6 {
+        width: 50%;
     }
 }
