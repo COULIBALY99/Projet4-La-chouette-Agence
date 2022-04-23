@@ -6,6 +6,15 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+.keywords{
+    font-weight:700;
+}
+div#bloc-0.bloc.bgc-white.l-bloc{
+    background-color: #f2f2f2;
+}
+a{
+    font-weight: 600;
+}
 
 a,
 button {
@@ -91,7 +100,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper.webp");
     background-size: 280px 280px;
 }
 
@@ -100,8 +109,9 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
-}
+        font-weight: 900;
+        color:rgb(255,255,255.9);
+    }
 
 .d-bloc button:hover {
     color: rgba(255, 255, 255, .9);
@@ -286,6 +296,12 @@ a:hover {
 #bloc-1-hero h1 {
     font-size: 32px;
 }
+div#bloc-1-hero {
+    background-color: darkslateblue;
+}
+div#bloc-5-cta {
+    background-color: darkslateblue;
+}
 
 .navbar {
     margin-bottom: 0;
@@ -360,6 +376,15 @@ a:hover {
     float: right;
     position: relative;
     z-index: 2;
+}
+.col-sm-12 img {
+    width: 100px;
+}
+.portfolio img {
+    width: 200px;
+}
+.row {
+    text-align: center;
 }
 
 @media (min-width: 768px) {
@@ -747,6 +772,9 @@ h4 {
 .portfolio-row {
     margin-bottom: 44px;
     margin-top: 50px;
+}
+.portfolio img{
+    width: 300px;
 }
 
 .avatar {
