@@ -112,13 +112,11 @@ a:hover {
 }
 
 .d-bloc {
-        font-weight: 600;
-        color:rgb(255,255,255.9);
+        font-weight:600;
+        color:#000
     }
 
-.d-bloc button:hover {
-    color: rgba(255, 255, 255, .9);
-}
+
 
 .d-bloc .icon-round,
 .d-bloc .icon-square,
@@ -372,17 +370,31 @@ a:hover {
     width: 100px;
 }
 div#bloc-1-hero {
-    background-color: darkslateblue;
+    background-color: darkblue;
 }
 div#bloc-5-cta {
-    background-color: darkslateblue;
+    background-color: darkblue;
 }
 .row {
     text-align: center;
 }
 li a{
-    color: #ffffff;
     font-weight: 600;
+    color: #000;
+    display: flex;
+    margin-left: 40px,
+}
+li a {
+    margin-left: 40px;
+}
+.col-sm-4 {
+    display: flex;
+    flex-direction: column;
+}
+.col-sm-12 p.text-center {
+    font-size: 14px!important;
+    font-weight: 600;
+    color: #000!important;
 }
 
 @media (min-width: 768px) {
@@ -816,12 +828,12 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: #000!important;
 }
 
 .ltc-white {
