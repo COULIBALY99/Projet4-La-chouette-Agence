@@ -17,12 +17,14 @@ div#bloc-0.bloc.bgc-white.l-bloc{
 }
 a[href="index.html/page2.html"]{
     color: #ffffff;
+    text-decoration: none;
 }
 
 a,
 button {
     transition: all .3s ease-in-out;
     outline: none!important;
+    text-decoration: none;
 }
 
 a:hover {
@@ -331,6 +333,8 @@ a:hover {
     float: left;
     margin-top: 4px;
     font-size: 16px;
+    list-style: none;
+    margin-right: 50px;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -375,9 +379,7 @@ div#bloc-1-hero {
 div#bloc-5-cta {
     background-color: darkblue;
 }
-.row {
-    text-align: center;
-}
+
 li a{
     font-weight: 600;
     color: #000;
@@ -396,7 +398,20 @@ li a {
     font-weight: 600;
     color: #000!important;
 }
-
+.col-sm-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input[type="text"] {
+    padding: 1px 45px;
+}
+input[type="text\ i"] {
+    padding: 20px 45px;
+}
+span.sr-only {
+    visibility: hidden;
+}
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -440,7 +455,7 @@ li a {
 
 .nav > li > .dropdown a {
     background: none!important;
-    display: block;
+    display: none;
     padding: 14px 15px;
 }
 
@@ -730,7 +745,7 @@ p {
 .cta-hero {
     margin-top: 22px;
     color: #FFFFFF!important;
-    padding: 12px 28px 12px 28px;
+    padding: 12px 92px;
     font-size: 16px;
     font-weight: 700;
 }
@@ -886,7 +901,12 @@ h4 {
         padding-right: 0;
     }
     .col-sm-6 {
-        width: 35%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    input[type="text"] {
+        padding: 1px 45px;
     }
     h4.mg-md.text-center {
         font-size: 15px;
@@ -918,9 +938,7 @@ h4 {
 }
 
 @media (max-width: 991px) {
-    .container {
-        width: 100%;
-    }
+    
     .b-parallax {
         background-attachment: scroll;
     }
@@ -1074,6 +1092,7 @@ h4 {
     }
     form {
         padding: 5px;
+        font-size: 14px;
     }
     .close-lightbox {
         display: inline-block;
@@ -1101,7 +1120,5 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
-    .col-sm-6 {
-        width: 50%;
-    }
+
 }
