@@ -6,9 +6,6 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-.keywords{
-    visibility: hidden;
-}
 div#bloc-0.bloc.bgc-white.l-bloc{
     background-color: #f2f2f2;
 }
@@ -421,6 +418,9 @@ input[type="text"] {
     background-color: #f2f2f2;
     width: 100%;
     border: none;
+}
+.fa .fa-dribbble{
+    visibility: visible;
 }
 @media (min-width: 768px) {
     row.tight-width-whitespace.portfolio-row {
