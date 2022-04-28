@@ -399,12 +399,13 @@ li a{
 .col-sm-12 p.text-center {
     font-size: 12px!important;
     font-weight: 600;
-    color: #000000!important;
+    
 }
 .col-sm-6 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    line-height: 2;
 }
 input[type="text"] {
     padding: 1px 45px;
@@ -414,6 +415,10 @@ input[type="text\ i"] {
 }
 span.sr-only {
     visibility: hidden;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
 }
 @media (min-width: 768px) {
     row.tight-width-whitespace.portfolio-row {
@@ -909,6 +914,11 @@ h4 {
     .bloc-tile-4.full-width-bloc .container {
         padding-left: 0;
         padding-right: 0;
+    }
+    .col-sm-8 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .col-sm-6 {
         width: 230px;
