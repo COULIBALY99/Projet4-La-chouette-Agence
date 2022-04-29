@@ -5,7 +5,7 @@
     <meta name="keywords" content="">
     <meta name="description" content="La chouette agence est une agence de web design qui aide les entreprises à devenir attractives et visibles sur internet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <link rel="shortcut icon" type="image/webp" href="favicon.jpg">
+    <link rel="shortcut icon" type="image/webp" href="favicon.webp">
     <link rel="canonical" href="https://https://coulibaly99.github.io/Projet4-La-chouette-Agence/page">
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
@@ -41,11 +41,12 @@
 				<nav class="navbar row">
 					<div class="navbar-header">
 						<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.webp" alt="agence"/></a>
-						<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
-							<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+						<button id="nav-toggle" type="radio" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
+							<span class="sr-only" aria-hidden="true">Toggle navigation</span><span class="icon-bar" aria-hidden="true"></span><span class="icon-bar"aria-hidden="true"></span><span class="icon-bar"aria-hidden="true"></span>
 						</button>
 					</div>
 					<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
+					<navigation>
 						<ul class="site-navigation nav navbar-nav">
 							<li>
 								<a href="page2.html/index.html">Accueil</a>
@@ -54,6 +55,7 @@
 								<a href="index.html/page2.html">page2</a>
 							</li>
 						</ul>
+					</navigation>
 					</div>
 				</nav>
 			</div>
@@ -87,28 +89,28 @@
 					<div class="row">
 						<div class="col-sm-8">
 							<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
-								<div class="form-group" aria-label="left align">
+								<div class="form-group" aria-labelledby="name">
 									<label for="name">
 										Nom
 									</label>
-									<input id="name" class="form-control" placeholder="name" required />
+									<input type="text" id="name" placeholder="name" aria-required />
 								</div>
-								<div class="form-group" aria-label="left align">
+								<div class="form-group" aria-labelledby="email">
 									<label for="email">
 										Adresse email
 									</label>
-									<input id="email" class="form-control" placeholder="email" required />
+									<input type="text" id="email" placeholder="email" aria-required />
 								</div>
-								<div class="form-group" aria-label="left align">
+								<div class="form-group" aria-labelledby="input_504">
 									<label for="input_504">
 										Comment nous avez-vous connu ?
 									</label>
-									<input class="form-control" type="email" required id="input_504" placeholder="input_504" />
+									<input type="text" id="input_504" placeholder="input_504" aria-required/>
 								</div>
-								<di class="form-group" aria-label="left align">
+								<di class="form-group" aria-labelledby="message">
 									<label for="messagen">
 										Brief de votre projet (Ajoutez autant<br> de détails que nécessaire)
-									</label><textarea id="message" class="form-control" rows="4" cols="50" placeholder="message" required></textarea>
+									</label><textarea type="text" id="message" rows="4" cols="50" placeholder="message" aria-required></textarea>
 								</di>
 								<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 									Envoyer
@@ -150,7 +152,7 @@
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									check-out <a class="social" href="https://dribbble.com/la chouette agence"titlt="dribbble"><span class="fa fa-dribbble icon-md"></span></a>
+									<a href="https://dribbble.com/la chouette agence"titlt="dribbble"><span class="fa fa-dribbble icon-md"></span></a>
 								</div>
 							</div>
 							<div class="col-sm-3">

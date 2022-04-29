@@ -419,6 +419,36 @@ input[type="text"] {
     width: 100%;
     border: none;
 }
+form#form_1 {
+    width: 260px; 
+    font-size: 15px;
+}
+title#wave5bottombar {
+    float: left;
+    position: fixed;
+    border-top: 1px inset rgb(115, 124, 112);
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+    border-image: initial;
+    z-index: 2147483647;
+    bottom: -1px;
+    right: 0px;
+    background-color: rgb(255, 255, 255);
+    left: 380px;
+    height: 200px;
+    overflow: visible;
+}
+title#wave5bottombar {
+    width: 100%;
+    width: calc(100% - 380px);
+    height: 0px;
+    background: #f9f9f9;
+    border-top: 1px inset #737C70;
+    position: absolute;
+    bottom: -1px;
+    left: 0px;
+}
 .fa .fa-dribbble{
     visibility: visible;
 }
@@ -427,7 +457,6 @@ input[type="text"] {
         display: flex;
     }
     .site-navigation {
-        position: absolute;
         top: 50%;
         right: 20px;
         transform: translate(0, -50%);
@@ -900,6 +929,36 @@ h4 {
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.webp");
+}
+.navbar-toggle .icon-bar+.icon-bar {
+    margin-top: 4px;
+}
+.navbar-toggle .icon-bar {
+    background-color: rgba(0, 0, 0, .5);
+    width: 26px;
+}
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+}
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+button, html input[type=button], input[type=reset], input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+button, select {
+    text-transform: none;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font: inherit;
+    color: inherit;
 }
 
 @media (max-width: 1024px) {
