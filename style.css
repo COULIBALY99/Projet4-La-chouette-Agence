@@ -286,7 +286,7 @@ a:hover {
     padding-right: 0;
     padding-left: 0;
 }
-.text-center.a{
+.text-center .a{
     visibility: visible;
     font-size: 30px;
     width: 48px;
@@ -784,9 +784,13 @@ h2 {
 }
 
 h3 {
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 700;
     color:#000000;
+}
+h3.mg-md.text-center.tc-white {
+    font-size: 13px;
+    font-weight: 600;
 }
 p.text-center.white {
     font-size: 11px;
