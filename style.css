@@ -286,6 +286,12 @@ a:hover {
     padding-right: 0;
     padding-left: 0;
 }
+.text-center.a{
+    visibility: visible;
+    font-size: 30px;
+    width: 48px;
+    height: 48px;
+}
 
 #bloc-1-hero h1 {
     font-size: 32px;
@@ -383,7 +389,7 @@ div#bloc-5-cta {
     align-items: center;
 }
 .col-sm-12 p.text-center {
-    font-size: 12px!important;
+    
     font-weight: 600;
     
 }
@@ -726,7 +732,6 @@ a {
 }
 
 .hero-bloc-text {
-    font-size: 32px;
     text-align: center;
 }
 
@@ -795,11 +800,6 @@ h5.mg-md.text-center.tc-white {
     max-width: 800px;
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
-}
-
-h1 {
-    color: #333333!important;
-    font-weight: 600;
 }
 
 h4 {
