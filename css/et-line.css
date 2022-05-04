@@ -1404,11 +1404,13 @@ textarea {
     font-size: inherit;
     line-height: inherit
 }
-
+.navbar-nav>li>a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
 a {
     color: #337ab7;
     text-decoration: none;
-    color: #ffffff!important;
 }
 
 a:focus,

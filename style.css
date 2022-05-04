@@ -439,6 +439,9 @@ title#wave5bottombar {
     background-color: #F3976C;
     width: 260px;
 }
+.text-center a {
+    color: #ffffff;
+}
 
 @media (min-width: 768px) {
     .nav > li .dropdown-menu a,
