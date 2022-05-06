@@ -1,3 +1,4 @@
+html,
 body {
     margin: 0;
     padding: 0;
@@ -393,12 +394,6 @@ div#bloc-5-cta {
     font-weight: 600;
     
 }
-.col-sm-6 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    line-height: 2;
-}
 span.sr-only {
     visibility: hidden;
 }
@@ -408,32 +403,6 @@ span.sr-only {
 }   
 .form#form_1 {
         font-weight: 600;
-}
-title#wave5bottombar {
-    float: left;
-    position: fixed;
-    border-top: 1px inset rgb(115, 124, 112);
-    border-right: none;
-    border-bottom: none;
-    border-left: none;
-    border-image: initial;
-    z-index: 2147483647;
-    bottom: -1px;
-    right: 0px;
-    background-color: rgb(255, 255, 255);
-    left: 380px;
-    height: 200px;
-    overflow: visible;
-}
-title#wave5bottombar {
-    width: 100%;
-    width: calc(100% - 380px);
-    height: 0px;
-    background: #f9f9f9;
-    border-top: 1px inset #737C70;
-    position: absolute;
-    bottom: -1px;
-    left: 0px;
 }
 .boutton{
     background-color: #F3976C;
