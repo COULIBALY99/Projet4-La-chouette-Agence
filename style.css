@@ -296,10 +296,6 @@ a:hover {
     height: 48px;
 }
 
-#bloc-1-hero h1 {
-    font-size: 32px;
-}
-
 .navbar {
     margin-bottom: 0;
     z-index: 1;
@@ -380,10 +376,10 @@ a:hover {
     width: 100px;
 }
 div#bloc-1-hero {
-    background-color: darkblue;
+    background-color: #F3976C;
 }
 div#bloc-5-cta {
-    background-color: darkblue;
+    background-color: #F3976C;
 }
 
 .col-sm-4 {
@@ -411,9 +407,20 @@ span.sr-only {
     width: 260px;
 }
 .text-center a {
-    color: #ffffff;
+    color: #000000!important;
+    font-weight: 800;
 }
-
+.col-sm-12 h2{
+    font-size: 22px;
+    color: rgba(0, 0, 0, .5);
+    font-weight: 600;
+}
+.col-sm-12 h1{ 
+    font-weight: 800;
+}
+.col-sm-12 h3{
+    font-size: 13px;
+}
 @media (min-width: 768px) {
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
@@ -481,7 +488,7 @@ nav .caret {
 }
 
 .mg-md {
-    margin-top: 10px;
+    margin-top: 34px;
     margin-bottom: 20px;
 }
 
@@ -599,6 +606,8 @@ a[data-lightbox]:hover::before {
     top: 50%;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
+    padding-top: 10px;
+    
 }
 
 a[data-lightbox]:hover img {
@@ -760,18 +769,18 @@ h2 {
 h3 {
     font-size: 12px;
     font-weight: 700;
-    color:#000000;
+    color:#ffffff!important;
 }
 h3.mg-md.text-center.tc-white {
     font-size: 13px;
     font-weight: 600;
 }
 p.text-center.white {
-    font-size: 11px;
+    font-size: 13px;
 }
 h5.mg-md.text-center.tc-white {
     font-size: 24px;
-    font-weight: 400;
+    font-weight: 800;
 }
 
 .med-width-whitespace {
@@ -793,9 +802,9 @@ h4 {
     color: #FFFFFF!important;
 }
 
-.portfolio-thumb {
+/*.portfolio-thumb {
     margin-bottom: 24px;
-}
+}*/
 
 .portfolio-row {
     margin-bottom: 44px;
@@ -803,6 +812,7 @@ h4 {
 }
 .portfolio img{
     width: 170px;
+    margin: auto
 }
 
 .avatar {
@@ -812,6 +822,9 @@ h4 {
 .black-background {
     background-color: rgba(165, 147, 99, 0.7);
     padding: 10px 10px 10px 10px;
+}
+.bg-banniere {
+    background-image: url("img/la-chouette-agence-banniere.webp");
 }
 .tight-width-whitespace.black-background {
     width: 300px;
@@ -834,9 +847,11 @@ h4 {
     background-color: #F3976C;
 }
 
-.tc-white {
-    color:#ffffff!important;
-}
+/*.tc-white {
+    /*color:#ffffff!important;
+    font-weight: 800;
+    
+}*/
 
 .btn-atomic-tangerine {
     background: #F3976C;
