@@ -421,6 +421,9 @@ span.sr-only {
 .col-sm-12 h3{
     font-size: 13px;
 }
+.container.bloc-lg {
+    text-align: center;
+}
 @media (min-width: 768px) {
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
@@ -823,9 +826,6 @@ h4 {
     background-color: rgba(165, 147, 99, 0.7);
     padding: 10px 10px 10px 10px;
 }
-.bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.webp");
-}
 .tight-width-whitespace.black-background {
     width: 300px;
 }
@@ -888,14 +888,13 @@ h4 {
 .bg-lines-h2-bg {
     background-image: url("img/lines-h2-bg.webp");
 }
-
-.bg-banniere {
+.bg-banniere{
     background-image: url("img/la-chouette-agence-banniere.webp");
 }
-
 .bg-presentation {
     background-image: url("img/image-de-presentation.webp");
 }
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
